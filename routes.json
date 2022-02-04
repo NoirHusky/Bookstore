@@ -1,0 +1,20 @@
+{
+    "books/:page": {
+        "controller": "Book",
+        "method"    : "getAllWithPage",
+        "params"    : {
+            "page": "number"
+        }
+    },
+    "books": {
+        "controller": "Book",
+        "method": "getAll"
+    },
+    "book/:id": {
+        "controller": "Book",
+        "method": "get",
+        "params": {
+            "id": "number"
+        }
+    }
+}
